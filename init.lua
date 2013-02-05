@@ -69,9 +69,4 @@ module.run = function(func, ...)
     return proc
 end
 
-
-local proc = module.run(function(a) return a .. " OK" end, "test")
-print(proc:wait())
-
-
 return module
