@@ -538,7 +538,7 @@ static const luaL_reg R[] =
     {NULL,	    NULL}
 };
 
-int luaopen_job_marshal(lua_State *L)
+int luaopen_ljob_marshal(lua_State *L)
 {
     lua_newtable(L);
     luaL_register(L, NULL, R);

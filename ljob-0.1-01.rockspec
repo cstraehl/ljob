@@ -41,7 +41,7 @@ build = {
 		{
 			modules =
 			{
-				["job.marshal"] =
+				["ljob.marshal"] =
 				{
 				},
 			}
@@ -49,8 +49,8 @@ build = {
 	},
 	modules =
 	{
-                ["job.init"] = "init.lua",
-		["job.marshal"] =
+                ["ljob.init"] = "init.lua",
+		["ljob.marshal"] =
 		{
 			sources = { "lmarshal.c"},
 			incdirs = { },
